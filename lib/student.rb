@@ -68,6 +68,7 @@ class Student
     sql = SQL
     SELECT *
     FROM students
-    WHERE 
+    WHERE grade < 12
+    SQL
   end
 end
