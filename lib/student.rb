@@ -101,15 +101,4 @@ class Student
       self.new_from_db(row)
     end
   end
-  
-  def self.first_student_in_grade_10 returns the first student in grade 10
-    
-    
-  end
-  
-  def self..all_students_in_grade_X returns an array of all students in a given grade X
-    
-    
-    
-  end
 end
