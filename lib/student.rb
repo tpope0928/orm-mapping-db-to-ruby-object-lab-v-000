@@ -121,5 +121,8 @@ class Student
       WHERE grade = ?
       ORDER BY students.id
     SQL
-    
+    DB[:conn].execute(sql, number).map do |row|
+      self.new_from_db(row,grade)
+    end
+  end
 end
