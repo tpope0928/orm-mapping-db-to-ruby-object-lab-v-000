@@ -91,5 +91,8 @@ class Student
   def self.first_X_students_in_grade_10
   end
   
-  def self
+  def self.first_student_in_grade_10 returns the first student in grade 10
+  end
+  
+  def self.
 end
