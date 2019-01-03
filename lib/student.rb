@@ -97,6 +97,9 @@ class Student
   
   def self.first_student_in_grade_10 returns the first student in grade 10
     
+    sql = <<-SQL
+      SELECT
+    SQL
     
     DB[:conn].execute(sql).map do |row|
       self.new_from_db(row)
